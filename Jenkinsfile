@@ -15,7 +15,7 @@ pipeline {
         stage('Sonar Scan') {
             steps {
                 sh 'ls -ltr'
-                sh 'Sonar-scanner'
+                sh 'sonar-scanner'
             }
         }
     }
